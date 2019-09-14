@@ -1,5 +1,3 @@
-# Copyright Nicolas Pielawski 2016
-import argparse, threading, socket, time, os
 
 website_post_running = True
 def website_post(host, port = 80, length = 1024, time_wait = 1, thread_mode = False):
